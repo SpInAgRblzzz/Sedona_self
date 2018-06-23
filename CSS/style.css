@@ -5,8 +5,8 @@ body {
     padding: 0;
 
     font-family: "PT Sans", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 26px;
     color: #000000;
 
     background-color: #ffffff;
@@ -41,23 +41,31 @@ input[type="radio"].visually-hidden {
 /*Стили хедера*/
 
 .main-menu {
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: bold;
     text-transform: uppercase;
 }
 
 .navigaion-item a {
+    font-weight: bold;
     color: #000000;
 }
 
 .description-slogan {
     font-size: 21px;
+    font-weight: bold;
 }
 
-.reasons  {
+.reasons {
     font-size: 14px;
     font-weight: 400;
     text-transform: none;
     color: #333333;
+}
+
+
+/*стили мейна*/
+
+.reason-title {
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
