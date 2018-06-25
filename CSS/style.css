@@ -55,7 +55,6 @@ input[type="radio"].visually-hidden {
 }
 
 .reasons {
-    font-size: 14px;
     font-weight: 400;
     text-transform: none;
     color: #333333;
@@ -69,3 +68,15 @@ input[type="radio"].visually-hidden {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.reason-number,
+.reason-description {
+    font-weight: 400;
+    text-transform: none;
+}
+
+/*.reason1,
+.reason2 {
+    color: #ffffff;
+}*/
+
