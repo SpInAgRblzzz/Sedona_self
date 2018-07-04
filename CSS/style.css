@@ -75,8 +75,77 @@ input[type="radio"].visually-hidden {
     text-transform: none;
 }
 
-/*.reason1,
+.reason1,
 .reason2 {
     color: #ffffff;
-}*/
+}
 
+fieldset {
+    border: none;
+}
+
+.filter-title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.search-result {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.order-navigation {
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.catalog-item-name {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.catalog-item-type,
+.catalog-item-price,
+.rating{
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.catalog-item-more,
+.catalog-item-book {
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.rating {
+    color: #666666;
+}
+
+/*стили футера*/
+
+.hashtag{
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.academy-link-text {
+    text-transform: uppercase;
+    color: #000000;
+}
